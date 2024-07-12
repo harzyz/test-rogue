@@ -1,0 +1,46 @@
+@import "../../styles/index.scss";
+
+.logo_img{
+    // border: 2px solid red;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 20px 0px;
+
+    // .logo_icon{
+
+    //     .logo{
+    //         width: 70% !important;
+    //     }
+    // }
+
+    @include responsive("mobile") {
+        // border: 2px solid greenyellow;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        width: 100%;
+        padding: 10px 20px;
+        overflow-x: auto;
+        gap: 20px;
+        // height: 100%;
+        // max-height: 400px;
+        white-space: nowrap;
+
+        // .logo_icon{
+        //     width: 100%;
+        //     border: 2px solid green;
+
+        //     .logo{
+        //         width: 100% !important;
+        //         // position: relative;
+        //         // height: unset !important;
+        //         border: 2px solid red;
+        //     }
+        // }
+
+    }
+}

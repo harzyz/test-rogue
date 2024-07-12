@@ -1,0 +1,202 @@
+@import "../../styles/index.scss";
+// @import "../../styles/globals.scss";
+
+.hero_container{
+    width: 100%;
+    background-image: url("../../../../public/Images/Rectangle\ 54.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0px 50px;
+    position: relative;
+
+    .rogue_image{
+        width: 100%;
+        max-width: 1582.9px;
+        height: 586.16px;
+        // top: 219px;
+        gap: 0px;
+        opacity: 0px;
+        
+        // position: absolute;
+        background-image: url("../../../../public/Images/Rogue\ Dev\ Tech\ \(Stroke\).svg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        .Unveil_wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+
+            h5{
+                font-family: 'ModernAntiqua';
+                font-size: 32px;
+                font-weight: 500;
+                line-height: 36.3px;
+                text-align: left;
+                color: #CCDFF9; 
+            }
+
+            h2{
+                font-family: 'ModernAntiqua';
+                font-size: 64px;
+                font-weight: 500;
+                line-height: 72.59px;
+                text-align: left;
+                color: #fff; 
+                width: 80%;
+                text-align: center;
+
+                span{
+                    font-family: Modern Antiqua;
+                    font-size: 64px;
+                    font-weight: 500;
+                    line-height: 72.59px;
+                    text-align: left;
+                    border-bottom: 3px solid #fff;
+                    border-radius: 5px;
+                }
+            }
+
+            p{
+                font-family: Modern Antiqua;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 27.22px;
+                text-align: left;
+                color: #fff;
+            }
+
+            button{
+                background: #0C356A;
+                // border: none;
+                border: 1px solid #6D86A6;
+                font-family: Montserrat;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 19.5px;
+                text-align: center;
+                color: #fff;
+                padding: 12px 20px;
+                // width: 13%;
+                border-radius: 5px;
+                cursor: pointer;
+
+                &:hover{
+                    background: #072244;
+                }
+            }
+        }
+    }
+
+    @include responsive("mobile") {
+        
+        width: 100%;
+        background-image: url("../../../../public/Images/Rectangle\ 54.svg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 100px 0px 50px;
+        position: relative;
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+
+    
+        .rogue_image{
+            width: 100%;
+            max-width: 1137.9px;
+            height: 487.16px;
+            // top: 219px;
+            gap: 0px;
+            opacity: 0px;
+            
+            // position: absolute;
+            background-image: url("../../../../public/Images/Rogue\ Dev\ Tech\ \(Stroke\).svg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            section{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+    
+                h5{
+                    font-family: Modern Antiqua;
+                    font-size: 15px;
+                    font-weight: 500;
+                    line-height: 17.3px;
+                    text-align: center;
+                    color: #CCDFF9; 
+                }
+    
+                h2{
+                    font-family: Modern Antiqua;
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 27.59px;
+                    // text-align: left;
+                    color: #fff; 
+                    width: 80%;
+                    text-align: center;
+    
+                    span{
+                        font-family: Modern Antiqua;
+                        font-size: 24px;
+                        font-weight: 500;
+                        line-height: 27.59px;
+                        text-align: center;
+                        border-bottom: 3px solid #fff;
+                        border-radius: 5px;
+                    }
+                }
+    
+                p{
+                    font-family: Modern Antiqua;
+                    font-size: 13px;
+                    font-weight: 500;
+                    line-height: 14.74px;
+                    text-align: center;
+                    color: #fff;
+                    width: 80%;
+                }
+    
+                button{
+                    background: #0C356A;
+                    // border: none;
+                    border: 1px solid #6D86A6;
+                    font-family: Montserrat;
+                    font-size: 12px;
+                    font-weight: 500;
+                    line-height: 14.5px;
+                    text-align: center;
+                    color: #fff;
+                    padding: 12px 30px;
+                    // width: 30%;
+                    border-radius: 5px;
+                    cursor: pointer;
+
+                    &:hover{
+                        background: #072244;
+                    }
+                }
+            }
+        }
+    }
+}
