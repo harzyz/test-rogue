@@ -3,10 +3,11 @@
 
 .hero_container{
     width: 100%;
-    background-image: url("../../../../public/Images/Rectangle\ 54.svg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    // background-image: url("../../../../public/Images/Rectangle\ 54.svg");
+    // background-position: center;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    background: black;
     padding: 100px 0px 50px;
     position: relative;
 
@@ -19,7 +20,7 @@
         opacity: 0px;
         
         // position: absolute;
-        background-image: url("../../../../public/Images/Rogue\ Dev\ Tech\ \(Stroke\).svg");
+        // background-image: url("../../../../public/Images/Rogue\ Dev\ Tech\ \(Stroke\).svg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
